@@ -31,4 +31,4 @@ caso 4:
 def suerte (int i){
     return i + 777;
 }
-int a = suma(7);
+int a = suerte(7);
