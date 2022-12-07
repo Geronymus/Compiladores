@@ -1,0 +1,28 @@
+caso1:
+
+def suma (int p){
+    return p + 7;
+}
+int x = suma(5);
+
+caso2:
+
+int x = 3;
+if ( x < 20){
+    x = 10;
+}
+else{
+  x = 5;
+}
+int y = x + 5;
+
+caso3:
+
+int x = 3;
+if ( x > 20){
+    x = 10;
+}
+else{
+  x = 5;
+}
+int y = x + 5;
