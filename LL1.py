@@ -76,7 +76,7 @@ def print_tree(node, node_list, info = False):
     #print(dot)
 
     graph = graphviz.Source(dot, format= 'png')
-    graph.render("D:/WorkSpacex/Python/Compiladores/Final/PackAron - copia/archivos/tree.png", view=True)
+    graph.render("D:/WorkSpacex/Python/Compiladores/Final/PythonOldTimes/archivos/tree.png", view=True)
 
 def print_tree_recursive(node):
     global dot
