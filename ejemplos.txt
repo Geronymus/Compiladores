@@ -1,0 +1,34 @@
+caso1:
+
+int a = 15;
+int b = 30;
+int c = a + b;
+
+caso 2:
+
+int a = 15;
+if ( a < 30){
+    a = 5;
+}
+else{
+  a = 100;
+}
+int b = a + 16;
+
+caso 3:
+
+int a = 3;
+if ( a > 30){
+    a = 5;
+}
+else{
+  a = 100;
+}
+int b = a + 16;
+
+caso 4:
+
+def suerte (int i){
+    return i + 777;
+}
+int a = suma(7);
