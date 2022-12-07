@@ -1,0 +1,67 @@
+# PRUEBAS
+
+if (id < id ){ int id = true;}
+if lparem id minor id rparem ini_llave int id equal true dotcomma fin_llave
+
+def f2(){ return x;}
+def id lparem rparem ini_llave return id dotcomma fin_llave
+
+x = f2(nun, x);
+id equal id lparem num comma id rparem dotcomma
+
+
+# def f1 ( int x, int y) { int a = x + y ;  return a; } y = f1(4, x);
+def id lparem int id comma int id rparem ini_llave int id equal id plus id dotcomma return id dotcomma fin_llave id equal id lparem num comma id rparem dotcomma
+
+# GRAMMAER
+
+PROGRAM -> FUNCTIONS STATEMENTS 
+FUNCTIONS -> FUNCTION FUNCTIONS 
+FUNCTIONS -> ''
+
+FUNCTION -> def id lparem PARATYS rparem ini_llave STATEMENTS return EXP dotcomma fin_llave 
+PARATYS -> TYPE id PARATY 
+PARATYS -> ''
+PARATY -> comma TYPE id PARATY 
+PARATY -> ''
+
+STATEMENTS -> STATEMENT STATEMENTS 
+STATEMENTS -> ''
+STATEMENT -> DECLARATION 
+STATEMENT -> ASSIGN
+STATEMENT -> IF
+STATEMENT -> ELSE
+
+DECLARATION -> TYPE id equal EXP dotcomma 
+TYPE -> int 
+TYPE -> bool
+ASSIGN -> id equal EXP dotcomma
+
+EXP -> T E'
+E' -> OPER T E'
+E' -> ''
+T -> TERM
+T -> lparem EXP rparem
+TERM -> id INVOCACION
+TERM -> num
+TERM -> BOOLEAN
+BOOLEAN -> true
+BOOLEAN -> false
+INVOCACION -> lparem PARAMS rparem 
+INVOCACION -> ''
+OPER -> addition
+OPER -> subtract
+OPER -> division
+OPER -> multiplication
+
+PARAMS -> EXP PARAM 
+PARAMS -> ''
+PARAM -> comma EXP PARAM 
+PARAM -> ''
+
+
+IF -> if lparem CONDITION rparem ini_llave STATEMENTS fin_llave
+CONDITION -> EXP OPERCON EXP
+OPERCON -> minor
+OPERCON -> mayor
+ELSE -> else ini_llave STATEMENTS fin_llave
